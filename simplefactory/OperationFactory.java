@@ -3,6 +3,7 @@ package asia.simplefactory;
 public class OperationFactory {
 	public static Operation getInstace(String s){
 		Operation oper = null;
+		
 		switch (s){
 			case "+" :
 				oper = new OperationAdd();
